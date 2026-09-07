@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Prisma generated files
+server/src/generated/prisma/
+cookies.txt
+
+# Local AI/editor configuration
+.agents/
+.claude/
+.windsurf/
